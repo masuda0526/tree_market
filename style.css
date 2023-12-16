@@ -1,0 +1,416 @@
+.site-width{
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.two-colum{
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/*header*/
+header{
+  background: rgb(210, 233, 176);
+  margin-bottom: 50px;
+}
+.logo{
+  overflow: hidden;
+  display: inline-block;
+
+}
+.logo h1{
+  font-size: 28px;
+  float: left;
+  text-align: center;
+  padding: 20px;
+}
+.nav{
+  float: right;
+}
+.nav__ul{
+  display: inline-block;
+}
+.nav__ul li{
+  display: inline-block;
+  line-height: 104px;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+/*main*/
+.main__title{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/*form*/
+form label{
+  font-size: 20px;
+}
+.err-msg{
+  color: rgb(250, 116, 116);
+  margin-bottom: 10PX;
+}
+form input, .tree-name{
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+}
+.request-sep{
+  overflow: hidden;
+}
+.request-sep__box1{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.request-sep__box2{
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+}
+
+form textarea{
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+}
+.diameter, .tanka, .requestVol, .length{
+  width: 100%;
+}
+.diameter__min, .diameter__max, .tanka__input, .requestVol__input, .length__input{
+  width: 150px;
+}
+
+/*btn*/
+.btn-box{
+  overflow: hidden;
+}
+.btn{
+  float: right;
+  background-color: gray;
+  width: 120px;
+  text-align: center;
+}
+
+/*request_detail*/
+.detail, .transaction{
+  font-size: 24px;
+}
+.detail__table, .transaction__table{
+  width: 90%;
+  margin: 0 auto 30px;
+  border-collapse: separate;
+  border-spacing:  30px 30px;
+  
+}
+.detail__table td.head, .transaction__table td.head{
+  text-align: center;
+  width: 140px;
+  border: 1px solid gray;
+  background-color: antiquewhite;
+}
+.detail__comment{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.detail__comment h3{
+  border-bottom: 3px solid rgb(43, 141, 203);
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.detail__comment__content{
+  font-size: 20px;
+}
+
+/*seach*/
+.search{
+  width: 20%;
+  float: left;
+  background-color: gainsboro;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.search__inner{
+  width: 90%;
+  padding: 10px 5px 15px;
+  margin: 0 auto;
+}
+.search__form input,.search__form select{
+  width: 100%;
+  background-color: white;
+  height: 43px;
+  border: 1px solid gray;
+}
+
+/*request-list*/
+.request-list{
+  width: 75%;
+  float: right;
+  background-color: gainsboro;
+  padding: 30px 0;
+}
+.request-list__inner{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.request-list__card{
+  width: 45%;
+  background-color: white;
+  margin-bottom: 15px;
+}
+.left-card{
+  float: left;
+}
+.right-card{
+  float: right;
+}
+.request-list__cardinner{
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+.request-list__cardinner table{
+  border-collapse: separate;
+  border-spacing: 15px 10px;
+}
+.request-list__cardinner .head{
+  background-color: rgb(223, 238, 195);
+  padding: 2px;
+}
+/*メッセージ画面*/
+.message{
+  width: 59%;
+  box-sizing: border-box;
+  float: left;
+  background: rgb(220, 219, 219);
+  min-height: 900px;
+  overflow: hidden;
+}
+.message h3{
+  text-align: center;
+}
+.message__board__info{
+  text-align: center;
+}
+.message-box{
+  overflow: hidden;
+  font-size: 20px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+.recieve-message{
+  float: left;
+}
+.recieve-content{
+  background: rgb(163, 188, 210);
+  border-radius: 10px;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+.send-message{
+  float: right;
+  text-align: right;
+}
+.send-content{
+  background-color: rgb(108, 253, 115);
+  border-radius: 10px;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+.message-date{
+  background-color: none;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.info, .delivery, .send, .accept{
+  width: 39%;
+  box-sizing: border-box;
+  float: right;
+  margin-bottom: 20px;
+  background: rgb(220, 219, 219);
+  padding: 10px 20px;
+}
+.info__request, .info__partner{
+  margin-bottom: 10px;  
+  background-color: white;
+  padding: 10px;
+}
+.info__request h3, .info__partner h3{
+  margin-bottom: 5px;
+  border: 1px solid black;
+  display: inline-block;  
+}
+.info__request p, .info__partner p{
+  margin-bottom: 5px;
+}
+.delivery__inner{
+  overflow: hidden;
+}
+.delivery__inner input[type=text]{
+  width: 30%;
+  background-color: white;
+}
+.delivery__inner input[type=submit], .send input[type=submit], .accept__list input[type=submit]{
+  color: white;
+  background-color: black;
+}
+.send textarea{
+  background-color: white;
+}
+.accept__list{
+  background-color: white;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+.accept__list p{
+  display: inline-block;
+  line-height: 32px;
+}
+.accept__list p span{
+  font-size: 12px;
+}
+.accept__flg{
+  float: right;
+}
+.wait{
+  color: rgb(219, 111, 111);
+}
+
+/*pagenation*/
+.pagenation{
+  overflow: hidden;
+  width: 80%;
+  margin: 30px auto;
+}
+.pagenation__inner{
+  width: 75%;
+  float: right;
+  text-align: center;
+}
+.pagenation__inner ul{
+  width: 90%;
+  margin: 0 auto;
+}
+.pagenation__inner li{
+  display: inline-block;
+  background-color: gainsboro;
+  color: black;
+  padding: 8px 10px;
+  margin-right: 10px;
+}
+.pagenation__inner .currentPage{
+  color: white;
+  background-color: black;
+}
+
+/*transaction*/
+.transaction{
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+}
+.transaction h2 {
+  padding-top: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  border-bottom: 3px solid rgb(43, 141, 203);;
+}
+/*partner*/
+.partner{
+  width: 40%;
+  float: right;
+  font-size: 24px;
+}
+.partner__table{
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+.partner__comment{
+  margin-top: 10px;
+  padding-left: 15px;
+}
+.partner__comment h2{
+  display: inline-block;
+}
+.partner__comment p{
+  min-height: 100px;
+  border: 1px solid black;
+}
+
+
+/*mypage*/
+.mypage{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.mypage__inner{
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.mypage__accept, .mypage__delivery, .mypage__transaction_r, .mypage__transaction_a, .mypage__agree, .mypage__apply{
+  width: 49%;
+  box-sizing: border-box;
+  padding: 5px;
+  float: left;
+  background: gray;
+  text-align: left;
+}
+.mypage__delivery, .mypage__transaction_a, .mypage__apply{
+  float: right;
+}
+
+.mypage__acceptList, .mypage__deliveryList, .mypage__transactionList_r, .mypage__transactionList_a, .mypage__agreeList, .mypage__applyList{
+  overflow: hidden;
+  background: white;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.mypage__acceptList p, .mypage__deliveryList p , .mypage__agreeList p, .mypage__applyList p{
+  display: inline-block;
+  line-height: 16px;
+}
+.mypage__acceptList input[type="submit"], .mypage__agreeList input[type="submit"]{
+  background: black;
+  color: white;
+  width: 100px;
+  text-align: center;
+  float: right;
+  height: 32px;
+  line-height: 10px;
+}
+.mypage__deliveryList span, .mypage__applyList span{
+  float: right;
+  line-height: 32px;
+}
+
+/*state*/
+.state{
+  float: right;
+  width: 40%;
+  margin-top: 50px;
+  text-align: center;
+}
+.state p{
+  font-size: 28px;
+  color: rgb(237, 31, 31);
+}
+/*footer*/
+footer{
+  height: 100px;
+  background: rgb(210, 233, 176);
+}
+footer p {
+  text-align: center;
+  line-height: 100px;
+}
